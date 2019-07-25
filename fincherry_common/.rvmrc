@@ -1,0 +1,5 @@
+rvm --create ruby-2.6.3@fincherry_common
+if ! command -v bundle ; then
+  gem install bundler
+fi
+
